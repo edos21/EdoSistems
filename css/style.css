@@ -7,9 +7,7 @@
 
 }
 
-
 /* 		FONTSA    			*/
-
 
 @font-face {
     font-family: 'robotobold';
@@ -43,14 +41,96 @@
     font-style: normal;
 }
 
+/*Style para el slider*/
 
+.dg-container{
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+.dg-wrapper{
+  width: 481px;
+  height: 316px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+.dg-wrapper a{
+  width: 482px;
+  height: 316px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: transparent url(../image/browser.png) no-repeat top left;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+  display: block;
+  padding: 41px 0px 0px 1px;
+}
+.dg-wrapper a div{
+  font-style: italic;
+  text-align: center;
+  line-height: 50px;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  color: #333;
+  font-size: 16px;
+  width: 100%;
+  bottom: -55px;
+  display: none;
+  position: absolute;
+}
+.dg-wrapper a.dg-center div{
+  display: block;
+}
+.dg-container nav{
+  width: 58px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -29px;
+}
+.dg-container nav span{
+  text-indent: -9000px;
+  float: left;
+  cursor:pointer;
+  width: 24px;
+  height: 25px;
+  opacity: 0.8;
+  background: transparent url(../image/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+  opacity: 1;
+}
+.dg-container nav span.dg-next{
+  background-position: top right;
+  margin-left: 10px;
+}
+/*fin de estilos del slider*/
 
-
+/*estilos para la pagina*/
 body {
 	/*	fondo de la pag 	*/
 background: rgb(255,255,255); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIzNyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NyUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYzljOWM5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 1%, rgba(255,255,255,1) 37%, rgba(237,237,237,1) 77%, rgba(201,201,201,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,rgba(255,255,255,1)), color-stop(37%,rgba(255,255,255,1)), color-stop(77%,rgba(237,237,237,1)), color-stop(100%,rgba(201,201,201,1))); /* Chrome,Safari4+ */
 background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 1%,rgba(255,255,255,1) 37%,rgba(237,237,237,1) 77%,rgba(201,201,201,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -73,8 +153,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 /*       Sombra superior del cuerpo 		*/
-body:before 
-{ 
+body:before { 
    content: "";
    position: fixed;
    top: -10px;
@@ -89,8 +168,6 @@ body:before
 
 header{
 	margin: 40px auto;
-	width: 960px;
-  height: 580px;
 	display: table;
   border-bottom: solid #0C7519;
 }
@@ -100,8 +177,6 @@ nav a{
   vertical-align:middle;
   color: #E1E1E1;
   text-decoration: none;
-
-
   /* Animación*/
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -136,14 +211,14 @@ li a:hover {
   border-top: solid #0C7519; 
 } 
 
-li.active a {
+.active{
 
     color: #0C7519;
 }
 
 #contenedor{
 	width: 960px;
-	background-image: url('../image/barra.png');
+	background-image: url('../img/barra.png');
   height: 64px;
 	
 }
@@ -166,12 +241,4 @@ background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 1%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c9c9c9',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 
 
-}
-
-
-/*    Sombra de barra de navegación   */
-#sombra{
-  width: 90%;
-  height: 30px; 
-  margin: 0 auto;
 }
