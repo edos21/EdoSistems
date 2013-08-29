@@ -147,7 +147,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   text-align: center;
   font-size: 12pt;
 	/* 	fuente de la pagina 	*/
-	
     font-family: "robotoregular";
     font: "robotoregular";
 
@@ -324,4 +323,105 @@ li a:hover {
   margin-top: -60px;
   overflow: visible;
   margin-bottom: -20px;
+}
+
+/*
+** Inicio de estilos para el footer
+*/
+
+footer{
+
+  font-size: 12px;
+  color: #fff;
+  background-color: rgba( 0, 0, 0, 0.5);
+  box-shadow: 0px -5px 7px #333;
+  height: 250px;
+  width: 960px;
+  margin: 15px auto;
+
+}
+
+#footer1{
+
+  float: left;
+  text-align: left;
+  margin: 30px;
+  width: 300px;
+  border-right: solid 2px #999;
+  
+}
+
+#footer1 img{
+
+  padding: 2px 5px;
+
+}
+
+#footer1 p{
+
+  margin-left: 45px;
+  margin-top: -30px;
+  white-space: pre;
+
+}
+
+#footer2{
+
+  float: left;
+  text-align: left;
+  margin: 30px 0;
+  width: 100px;
+  border-right: solid 2px #999;
+  
+}
+
+#footer2 ul{
+
+  list-style-type: none;
+  margin: 25px 0;
+
+}
+
+#footer2 a{
+
+  text-decoration: none;
+  color: #fff;
+  line-height: 20px;
+
+}
+
+#footer2 strong{
+
+  margin-left: -20px;
+
+}
+
+#footer3{
+
+  float: left;
+  text-align: left;
+  margin: 30px;
+  width: 100px;
+  
+}
+
+#footer3 strong{
+
+  margin-left: -20px;
+
+}
+
+#social{
+
+  margin-top: 20px;
+
+}
+
+#copy{
+
+  float: left;
+  width: 100%;
+  height: 24px;
+  background-color: rgba( 0, 0, 0, 0.7);
+
 }
