@@ -185,7 +185,7 @@ nav a{
   transition: all 0.5s ease;
 }
 
-nav ul{
+header nav ul{
 
     list-style-type:none;
     
@@ -196,7 +196,7 @@ nav ul{
     display: inline-table;
 }
 
-nav li{
+header nav li{
 
     text-align: center;
     display: inline;
@@ -206,7 +206,7 @@ nav li{
             
 }
 
-li a:hover {
+header li a:hover {
   color: #009933;
   border-width:5px;
   border-top: solid #0C7519; 
