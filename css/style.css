@@ -145,7 +145,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: auto;
   height: auto;
   text-align: center;
-  font-size: 12pt;
+  font-size: 12px;
 	/* 	fuente de la pagina 	*/
     font-family: "robotoregular";
     font: "robotoregular";
@@ -331,7 +331,6 @@ header li a:hover {
 
 footer{
 
-  font-size: 12px;
   color: #fff;
   background-color: rgba( 0, 0, 0, 0.5);
   box-shadow: 0px -5px 7px #333;
