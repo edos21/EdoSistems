@@ -387,6 +387,7 @@ footer{
   margin: 0 auto;
   width: 960px;
   height: 200px;
+  position:relative;
 }
 
 #footer1{
