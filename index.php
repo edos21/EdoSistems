@@ -22,7 +22,7 @@
 					<a href="#"><img src	="img/slider/12.jpg" alt="image12"><div></div></a> -->
 				</div>
 				<br><br>
-				<div id="cont1">
+				<div class="aumento" id="cont1">
 				<div id="textizq">DISEÑAMOS Y<br>DESARROLLAMOS</div>
 				<div id="textdere"> TÚ<br>PÁGINA <span style="font-size:50px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: 1px;">WEB</span></div>
 				</div>
@@ -35,17 +35,17 @@
 		<br>
 		<div id="textcentral">¡Hola! Bienvenido a Edosistems, una empresa dedica al desarrollo y diseño Web, acá encontrarás toda la información referente a nuestros servicios que ponemos a tu disposición:</div>
 		<br>
-		<div id="textservicios">
-
-
-
-		</div>
-		
 		<br>
-<div id="cont2">
+			<div id="textdere">Nuestros</div>
+				<div id="textizq"><span style="font-size:50px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -1px;">SERVICIOS</span>
+				</div>
+		<br>
+		<br>
+		<br>
 
-	<div id="desarrollo">
-		<div id="logito"><img src="img/servi1.png"></div>
+<div id="cont2">
+	<div  id="desarrollo">
+		<div class="aumento" id="logito"><img src="img/servi1.png"></div>
 		<br>
 		<b>Desarrollo</b>
 		<br>
@@ -55,7 +55,7 @@
 	</div>
 
 	<div id="asesoria">
-		<div id="logito"><img src="img/servi2.png"></div>
+		<div class="aumento"  id="logito"><img src="img/servi2.png"></div>
 		<br>		
 		<b>Asesorias</b>
 		<br>
@@ -64,8 +64,8 @@
 
 	</div>
 
-	<div id="cursos">
-		<div id="logito"><img src="img/servi3.png"></div>
+	<div  id="cursos">
+		<div class="aumento" id="logito"><img src="img/servi3.png"></div>
 		<br>
 		<b>Cursos</b>
 		<br>
@@ -73,10 +73,32 @@
 		<br>
 		Ponemos a tu disposición diferentes horarios y una flexible organización con los mejores precios. Pagos por hora o por curso completo, además de descuentos para grupos.
 		<br>
-
-	</div>
-	
+	</div>	
 </div>
+		<br>
+
+			<div id="textdere" style="text-align: right;">TRABAJAMOS<br>CON</div>
+				<div id="textizq"><span style="font-size:60px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -2px;">TECNOLOGÍA</span>
+			</div>
+
+		<br>
+		<br>
+
+
+
+
+<div id="tecnologias">
+	<img id="cajita" class="aumento" src="img/html_logo.png"/>
+	<img id="cajita" class="aumento" src="img/css_logo.png"/>
+	<img id="cajita" class="aumento" src="img/mysql_logo.png"/>
+	<img id="cajita" class="aumento" src="img/jquery_logo.png"/>
+	<img id="cajita" class="aumento" src="img/php_logo.png"/>
+</div>
+
+<br>
+<br>
+
+
 
 </div>
 
