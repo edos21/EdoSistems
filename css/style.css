@@ -650,3 +650,56 @@ transform: scale(1.3);
   letter-spacing: -1px;
 
 }
+
+
+
+/*            CONTACTO              */
+
+
+
+#contactbody{
+  height: 860px;
+  width: 730px;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 0px;
+  background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iNTMlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QzZDNkMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9yYWRpYWxHcmFkaWVudD4KICA8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 53%, rgba(211,211,211,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(53%,rgba(255,255,255,1)), color-stop(100%,rgba(211,211,211,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 53%,rgba(211,211,211,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 53%,rgba(211,211,211,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 53%,rgba(211,211,211,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 53%,rgba(211,211,211,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3d3d3',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+}
+#contactbody input{
+  border-radius: 5px;
+  border-color: #0C7519;
+  border-style:solid;
+  border-width:1px;
+  padding: 3px;
+  margin: 5px;
+  -webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 1);
+  -moz-box-shadow:    0px 0px 6px rgba(50, 50, 50, 1);
+  box-shadow:         0px 0px 6px rgba(50, 50, 50, 1);
+
+}
+#cont3{
+  margin: 0 auto;
+}
+#contactbody p{
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  color:#0C7519;
+  font-family: 'robotoblack_italic';
+  font-size: 41px;
+  letter-spacing: -1px;
+ }
+ #cont3 form{
+  text-align: left;
+
+ }
