@@ -35,15 +35,14 @@
 		<br>
 			<div id="textcentral"><p style="font-family:'robotoblack_italic';font-size:18px;text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.68);">El uso de la tecnología en la actualidad ya no es un lujo, es una necesidad.</p><br>
 			Por este motivo nuestra empresa provee servicios de consultoría para tí, tu negocio o tu empresa, evaluando tus necesidades para así diseñar sitios web y desarrollar programas especialmente creados para impulsarte y ayudarte a crecer en el mundo de hoy, el mundo de la tecnología.
-			</div>
-		<br>
-		<br>
+			</div><br>
+
+		<img src="img/separador.png"/><br>
 			<div id="textdere">Nuestros</div>
 				<div id="textizq"><span style="font-size:50px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -1px;">SERVICIOS</span>
 				</div>
 		<br>
-		<br>
-		<br>
+		<br><br>
 
 <div id="cont2">
 	<div  id="desarrollo">
@@ -95,14 +94,32 @@
 		<br>
 
 
-
-
+<p style="font-family:'robotolight';font-size:18px;text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.68);">Front-End</p>
+<br>
 <div id="tecnologias">
 	<img id="cajita" class="aumento" src="img/html_logo.png"/>
 	<img id="cajita" class="aumento" src="img/css_logo.png"/>
-	<img id="cajita" class="aumento" src="img/mysql_logo.png"/>
+	<img id="cajita" class="aumento" src="img/haml_logo.png"/>
+	<img id="cajita" class="aumento" src="img/slim_logo.png"/>
+	<img id="cajita" class="aumento" src="img/sass_logo.png"/>
+</div>
+<br>
+<p style="font-family:'robotolight';font-size:18px;text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.68);">Client-Side</p>
+<br>
+<div id="tecnologias">
+	<img id="cajita" class="aumento" src="img/js_logo.png"/>
+	<img id="cajita" class="aumento" src="img/ajax_logo.png"/>
 	<img id="cajita" class="aumento" src="img/jquery_logo.png"/>
+</div>
+<br>
+<p style="font-family:'robotolight';font-size:18px;text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.68);">Back-End</p>
+<br>
+<div id="tecnologias">
 	<img id="cajita" class="aumento" src="img/php_logo.png"/>
+	<img id="cajita" class="aumento" src="img/sinatra_logo.png"/>
+	<img id="cajita" class="aumento" src="img/mysql_logo.png"/>
+	<img id="cajita" class="aumento" src="img/ruby_logo.png"/>
+	<img id="cajita" class="aumento" src="img/SQLite_logo.png"/>
 </div>
 
 <br>
