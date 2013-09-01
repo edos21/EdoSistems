@@ -11,22 +11,29 @@
 	<div id="textizq"><span class="letra">EQUIPO</span>
 	</div>	
 	<div id="card-container">
+		
 	   	<div class="flip" id="un">
 	        <div class="back">This is the back of the card</div>
 	        <div class="front">This is the front of the card</div>
 	   	</div>
+	   	
+		
 	   	<div class="flip" id="dos">
 	        <div class="back">This is the back of the card</div>
 	        <div class="front">This is the front of the card</div>
-	   	</div>
+	  	</div> 
+
 	   	<div class="flip" id="tres">
 	        <div class="back">This is the back of the card</div>
 	        <div class="front">This is the front of the card</div>
-	   	</div>
+	  	</div> 	
+
 	   	<div class="flip" id="cuatro">
 	        <div class="back">This is the back of the card</div>
 	        <div class="front">This is the front of the card</div>
-	   	</div>
+	 	 </div> 	
+
+
 	</div>
 
 <?php

@@ -33,7 +33,7 @@
 	<!--AQUI VA EL RESTO DE HOME-->
 		<br>
 		<br>
-			<div id="textcentral"><p style="font-style:italic;">El uso de la tecnología en la actualidad ya no es un lujo, es una necesidad.</p><br>
+			<div id="textcentral"><p style="font-family:'robotoblack_italic';font-size:18px;text-shadow: 0px 0px 18px rgba(150, 150, 150, 0.68);">El uso de la tecnología en la actualidad ya no es un lujo, es una necesidad.</p><br>
 			Por este motivo nuestra empresa provee servicios de consultoría para tí, tu negocio o tu empresa, evaluando tus necesidades para así diseñar sitios web y desarrollar programas especialmente creados para impulsarte y ayudarte a crecer en el mundo de hoy, el mundo de la tecnología.
 			</div>
 		<br>
