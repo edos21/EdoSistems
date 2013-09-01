@@ -37,7 +37,7 @@
 		<br>
 		<br>
 			<div id="textdere">Nuestros</div>
-				<div id="textizq"><span style="font-size:50px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -1px;">SERVICIOS</span>
+				<div id="textizq"><span class="letra">SERVICIOS</span>
 				</div>
 		<br>
 		<br>

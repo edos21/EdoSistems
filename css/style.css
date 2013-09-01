@@ -537,23 +537,39 @@ transform: scale(1.3);
 
   }
 
+#nosotros{
 
+  margin-bottom: 20px;
+
+}
 
 
 /*          ROTACIÖN DE IMAGEN EN SOMOS       */
 
-#card {
-    -webkit-transform-style: preserve-3d;
-    -webkit-perspective: 1000;
+#card-container{
+
+  margin-top: 20px;
+
+}
+
+.flip {
+    
     width: 218px;
     height: 529px;
     position: relative;
+    -webkit-transition: all 1s ease;
+    -webkit-transform: perspective(600px);
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transform-style: preserve-3d;
 }   
+
+.flip:hover{
+    -webkit-transform: perspective(600px) rotateY(-180deg) translateX(82%);
+}
 
 .back, .front {
     position: absolute;
     -webkit-backface-visibility: hidden;
-    -webkit-transition: -webkit-transform 1s ease-in;
     width: 100%;
     height: 100%;   
     padding: 20px;
@@ -570,13 +586,35 @@ transform: scale(1.3);
     background: #7f37c2;
 }
 
-#card-container {
-    display: inline-block;
-    text-align: justify;
-}   
-#card-container:hover .back {   
-    -webkit-transform: rotateY(0deg);
+#un{
+
+  margin-left: 120px;
+
 }
-#card-container:hover .front {      
-    -webkit-transform: rotateY(-180deg);
+
+#dos{
+
+  margin: -529px 0 0 395px;
+
+}
+
+#tres{
+
+  margin: -529px 0 0 670px;
+
+}
+
+#cuatro{
+
+  margin: -529px 0 100px 945px;
+
+}
+
+.letra{
+
+  font-size:50px;
+  font-family:'robotoblack_italic';
+  color: #0C7519;
+  letter-spacing: -1px;
+
 }
