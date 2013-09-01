@@ -317,8 +317,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin-top: 30px;
   padding: 15px;
   padding-top: -20px;
-  height: 330px;
+  position: relative;
+  height: 350px;
   width: 230px;
+  min-height: 350px;
   display: inline-table;
   border-radius: 10px;
  background: rgb(255,255,255); /* Old browsers */
@@ -333,6 +335,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 
 }
+
+/*        + ver mas         */
+
+#vermas{
+
+  position: absolute;
+  bottom:  10px; 
+  right: 10px;
+ }
+
 
 #desarrollo b,#asesoria b,#cursos b{
   color: #0C7519;
@@ -377,7 +389,6 @@ footer{
   background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-8 */
 
-
 }
 
 
@@ -386,7 +397,7 @@ footer{
 #textcentral{
   width: 840px;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
@@ -506,7 +517,6 @@ footer{
 
 
 
-
 /*        Efecto opacity              */   
 .social{
 opacity:1;
@@ -537,84 +547,43 @@ transform: scale(1.3);
 
   }
 
-#nosotros{
 
-  margin-bottom: 20px;
-
-}
 
 
 /*          ROTACIÖN DE IMAGEN EN SOMOS       */
 
-#card-container{
-
-  margin-top: 20px;
-
+.container { 
+  width: 200px;
+  height: 260px;
+  position: relative;
+  -webkit-perspective: 800px;
 }
 
-.flip {
-    
-    width: 218px;
-    height: 529px;
-    position: relative;
-    -webkit-transition: all 1s ease;
-    -webkit-transform: perspective(600px);
-    -webkit-transform-origin: 100% 50%;
-    -webkit-transform-style: preserve-3d;
-}   
-
-.flip:hover{
-    -webkit-transform: perspective(600px) rotateY(-180deg) translateX(82%);
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  transform-origin: right center;
 }
 
-.back, .front {
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    width: 100%;
-    height: 100%;   
-    padding: 20px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+#card figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
 }
 
-.back {
-    -webkit-transform: rotateY(180deg);
-    background: url('http://www.inserthtml.com/goose.jpeg');
-    overflow: hidden;
-}   
-
-.front {
-    background: #7f37c2;
+#card .front {
+  background: red;
+}
+#card .back {
+  background: blue;
+  -webkit-transform: rotateY( 180deg );
 }
 
-#un{
-
-  margin-left: 120px;
-
-}
-
-#dos{
-
-  margin: -529px 0 0 395px;
-
-}
-
-#tres{
-
-  margin: -529px 0 0 670px;
-
-}
-
-#cuatro{
-
-  margin: -529px 0 100px 945px;
-
-}
-
-.letra{
-
-  font-size:50px;
-  font-family:'robotoblack_italic';
-  color: #0C7519;
-  letter-spacing: -1px;
-
+#card.hover {
+  transform: translateX( -100% ) rotateY( -180deg );
 }

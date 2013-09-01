@@ -33,11 +33,13 @@
 	<!--AQUI VA EL RESTO DE HOME-->
 		<br>
 		<br>
-		<div id="textcentral">¡Hola! Bienvenido a Edosistems, una empresa dedica al desarrollo y diseño Web, acá encontrarás toda la información referente a nuestros servicios que ponemos a tu disposición:</div>
+			<div id="textcentral"><p style="font-style:italic;">El uso de la tecnología en la actualidad ya no es un lujo, es una necesidad.</p><br>
+			Por este motivo nuestra empresa provee servicios de consultoría para tí, tu negocio o tu empresa, evaluando tus necesidades para así diseñar sitios web y desarrollar programas especialmente creados para impulsarte y ayudarte a crecer en el mundo de hoy, el mundo de la tecnología.
+			</div>
 		<br>
 		<br>
 			<div id="textdere">Nuestros</div>
-				<div id="textizq"><span class="letra">SERVICIOS</span>
+				<div id="textizq"><span style="font-size:50px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -1px;">SERVICIOS</span>
 				</div>
 		<br>
 		<br>
@@ -51,7 +53,9 @@
 		<br>
 		¿Necesitas el desarrollo profesional de tu idea, proyecto, o bien un sitio web personal o corporativo? En Edosistems proyectamos excelencia, por ello te ofrecemos una amplia gama de servicios referentes al desarrollo desde front-end, back-end, desarrollo general, planificación del proyecto y más. Desarrollamos usando las últimas tecnologías y más productivas técnicas.
 		<br>
-
+		
+			<img id="vermas" href="#" src="img/ver.png"/>
+		
 	</div>
 
 	<div id="asesoria">
@@ -61,8 +65,11 @@
 		<br>
 		Dos cabezas piensas más que una. Ya seas profesional o estudiante, te ofrecemos personal capacitado para ayudarte en áreas de desarrollo y programación para cualquiera de tus proyectos, con atención individual o por grupos, con los más eficientes lenguajes y tecnologías y en excelentes precios y horarios diseñados para tu mayor comodidad.
 		<br>
-
+		
+			<img id="vermas" href="#" src="img/ver.png"/>
+	
 	</div>
+
 
 	<div  id="cursos">
 		<div class="aumento" id="logito"><img src="img/servi3.png"></div>
@@ -73,6 +80,9 @@
 		<br>
 		Ponemos a tu disposición diferentes horarios y una flexible organización con los mejores precios. Pagos por hora o por curso completo, además de descuentos para grupos.
 		<br>
+	
+			<img  id="vermas" href="#" src="img/ver.png" />
+	
 	</div>	
 </div>
 		<br>
