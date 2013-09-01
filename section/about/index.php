@@ -4,9 +4,20 @@
 
 ?>
 	
-	<div id="wrapper">
+	<div>
+
+
+	</div>
+	
+
+	<div  id="contabout">
 		
-		<h1>AQUI ACERCA</h1>
+		<div id="card-container">
+	   		 <div id="card">
+	        	<div class="back">This is the back of the card</div>
+	        	<div class="front">This is the front of the card</div>
+	   		</div>
+		</div>
 
 	</div>
 
