@@ -6,37 +6,53 @@
 		<br>
 		<br>
 		<div id="textdere" style="text-align: right;">¿TIENES ALGUNA<br></div>
-				<div id="textizq"><span style="font-size:60px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -2px;">PREGUNTA?</span>
-		</div>
+		<div id="textizq"><span class="letra">PREGUNTA?</span></div>
 		<br>
 		<br>
 		<br>
 	<div id="contactbody">
-		<p>CONTACTANOS</p>
+		<h2>CONTACTANOS</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat dictum scelerisque. Nulla vulputate eget neque ac placerat. Morbi at dignissim dolor. Nullam pretium accumsan nisi, vitae scelerisque nisi imperdiet quis. Vivamus elementum fermentum rhoncus. Nunc commodo urna id tellus hendrerit viverra. Nam non magna at leo feugiat sollicitudin. Pellentesque eu pellentesque lectus. Aenean tincidunt rutrum varius. Sed consectetur sapien nec nunc gravida varius. Proin tincidunt elit enim, id dictum arcu feugiat id.</p>
 		<br>
-			<div id="cont3">
-				<form>
-					NOMBRE Y APELLIDO: <input type="text" name="nombre"><br>
-					EMAIL: <input type="email" name="email"><br>
-					TELÉFONO: <input type="tel" name="telf"><br>
-					MENSAJE: <input style="height:300px;width:400px;"type="text" name="texto">
-				</form>
-				<div><img src="img/contact.png"></div>
-			</div>
-			<br>
-			<img src="img/enviar.png"/>
-	
+		<div id="cont3">
+			<form method="post" action="#">
+				<label for="nombre">NOMBRE Y APELLIDO:</label>
+				<input type="text" name="nombre" id="nombre"><br>
+				<label for="email">EMAIL:</label>
+				<input type="email" name="email" id="email"><br>
+				<label for="telf">TELÉFONO:</label>
+				<input type="tel" name="telf" id="telf"><br>
+				<label for="mensaje">MENSAJE:</label>
+				<textarea name="texto" id="mensaje"> </textarea>
+				<br>
+				<img id="imgcontacto" src="../../img/contact.png">
+				<button type="submit"><img src="../../img/enviar.png"/></button>
+			</form>
+		</div>
+		<br>
+		<img src="../../img/separador.png"/><br>
 
-	<br>
-	<img src="img/separador.png"/><br>
+		<div id="textdere" style="text-align: right;">REDES<br></div>
+		<div id="textizq"><span class="letra">SOCIALES</span></div>
+		<br>
+		<a href="#"><img class="socialcontact" src="../../img/fbcontact.png"></a>
+		<a href="#"><img class="socialcontact" src="../../img/twcontact.png"></a>
+		<a href="#"><img class="socialcontact" src="../../img/googlecontact.png"></a>
+		<a href="#"><img class="socialcontact" src="../../img/linkedincontact.png"></a>
 
-	<div id="textdere" style="text-align: right;">REDES<br></div>
-				<div id="textizq"><span style="font-size:60px;font-family:'robotoblack_italic';color: #0C7519;letter-spacing: -2px;">SOCIALES</span>
+		<img src="../../img/separador.png"/><br>
+
+		<div id="contactdata">
+			<img src="../../img/world_footer.png" alt="world">
+			<p>Barquisimeto/Caracas - Venezuela</p><br><br>
+			<img src="../../img/telf_footer.png" alt="world">
+			<p>   Celular: +58(426)759-7558<br>   Teléfono: +58(251)233-7886</p><br>
+			<img src="../../img/email_footer.png" alt="world">
+			<p> Correo: contacto@e2sistems.com 
+	       edos21@gmail.com</p>
+		</div>
 	</div>
-	<br>
-	<img src="img/separador.png"/><br>
-
-	</div>
+	<img width="730px" src="../../img/shadow_1.png"/>
 
 <?php
 
