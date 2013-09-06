@@ -6,8 +6,8 @@
 		<meta name="description" content="Empresa dedicada al desarrollo y diseño web ademas de asesorias y cursos" />
 		<meta name="keywords" content="desarrollo, web, diseño, design, development, html, php, javascript, cursos, asesorias" />
 		<title>e2sistems - Web Design and Web Development</title>
-		<link rel="stylesheet" type="text/css" href="/edosistems/css/style.css" media="screen"/>
-		<script type="text/javascript" src="/edosistems/js/modernizr.custom.53451.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
 
 <!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
@@ -28,12 +28,18 @@
 			<div id="contenedor">
 				<nav class="menu">
 					<ul>
-						<li><a href="/edosistems">Inicio</a></li>
-						<li><a href="/edosistems/section/about">Nosotros</a></li>
-						<li><a href="/edosistems/section/services">Servicios</a></li>
-						<li><a href="/edosistems/section/portfolio">Portafolios</a></li>
-						<li><a href="/edosistems/section/contact">Contacto</a></li>
-						<li><a href="/edosistems/section/payments">Pagos</a></li>
+						<li><a <?php if ($thisPage=="home") echo " class=\"active\""; ?>
+						href="/edosistems">Inicio</a></li>
+						<li><a <?php if ($thisPage=="about") echo " class=\"active\""; ?>
+						href="?about">Nosotros</a></li>
+						<li><a <?php if ($thisPage=="services") echo " class=\"active\""; ?>
+						href="?services">Servicios</a></li>
+						<li><a<?php if ($thisPage=="portfolio") echo " class=\"active\""; ?>
+						href="?portfolio">Portafolios</a></li>
+						<li><a <?php if ($thisPage=="contact") echo " class=\"active\""; ?>
+						href="?contact">Contacto</a></li>
+						<li><a <?php if ($thisPage=="payments") echo " class=\"active\""; ?>
+						href="?payments">Pagos</a></li>
 					</ul>
 				</nav>	
 			</div>	

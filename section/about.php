@@ -1,6 +1,6 @@
 <?php
 	
-	include '../../includes/header.html';
+	include 'includes/header.html';
 
 ?>
 	<div><span class="letra">NOSOTROS</span></div>
@@ -38,6 +38,6 @@
 
 <?php
 
-	include '../../includes/footer.html';
+	include 'includes/footer.html';
 
 ?>
