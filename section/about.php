@@ -13,24 +13,24 @@
 	<div id="card-container">
 		
 	   	<div class="flip">
+	        <img src="img/wil.jpg" class="front">
 	        <div class="back">This is the back of the card</div>
-	        <div class="front">This is the front of the card</div>
 	   	</div>
 	   	
 		
 	   	<div class="flip">
+	   		<img src="img/wil.jpg" class="front">
 	        <div class="back">This is the back of the card</div>
-	        <div class="front">This is the front of the card</div>
 	  	</div> 
 
 	   	<div class="flip">
+	    <img src="img/wil.jpg" class="front">
 	        <div class="back">This is the back of the card</div>
-	        <div class="front">This is the front of the card</div>
 	  	</div> 	
 
 	   	<div class="flip">
+	   		<img src="img/wil.jpg" class="front">
 	        <div class="back">This is the back of the card</div>
-	        <div class="front">This is the front of the card</div>
 	 	 </div> 	
 
 
