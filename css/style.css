@@ -325,12 +325,17 @@ nav a{
 header nav ul{
 
     list-style-type:none;
-    
     float: right;
     margin-top: 22px;
     margin-right: 20px;
-    max-width: 410px;
+    max-width: 430px;
     display: inline-table;
+}
+
+@-moz-document url-prefix() {
+    header nav ul{
+        margin-top: 16px;
+    }
 }
 
 header nav li{
@@ -545,7 +550,7 @@ footer{
   display: inline-table;
   text-align: left;
   float: left;
-  margin: 30px 0 0 0;
+  margin: 20px 0 0 0;
   height: 100px;
   width: 280px;
 }
@@ -618,7 +623,6 @@ footer{
 #copy{
 
   height: 20px;
-  background-color: #666666;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
