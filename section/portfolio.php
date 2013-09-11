@@ -3,13 +3,15 @@
 	include 'includes/header.html';
 
 ?> 
-	
+	<br>
+		<div id="textizq">NUESTRO</div>
+		<div id="textdere" style="font-size: 50px;">PORTAFOLIO<span id="textizq">WEB</span></div>
+	<br>
+	<br>
+<br>
+<br>
 	<div id="wrapper">
-		<div><span class="letra">PORTAFOLIO</span></div>
-		<div id="texsec">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat dictum scelerisque. Nulla vulputate eget neque ac placerat. Morbi at dignissim dolor. Nullam pretium accumsan nisi, vitae scelerisque nisi imperdiet quis. Vivamus elementum fermentum rhoncus. Nunc commodo urna id tellus hendrerit viverra. Nam non magna at leo feugiat sollicitudin. Pellentesque eu pellentesque lectus. Aenean tincidunt rutrum varius. Sed consectetur sapien nec nunc gravida varius. Proin tincidunt elit enim, id dictum arcu feugiat id.
-		</div>
-		<div id="contenedor3dimage">
+		<div>
 			<section id="dg-container" class="dg-container">
 				<div class="dg-wrapper">
 					<a href="#"><img src="img/slider/1.jpg" alt="image01"><div></div></a>
@@ -25,14 +27,25 @@
 					<a href="#"><img src="img/slider/11.jpg" alt="image11"><div></div></a>
 					<a href="#"><img src="img/slider/12.jpg" alt="image12"><div></div></a>
 				</div>
-				<!--nav>	
-					<span class="dg-prev">&lt;</span>
-					<span class="dg-next">&gt;</span>
-				</nav-->
 			</section>
 		</div>
+	<img src="img/separador.png"/>
 
-	<!--AQUI VA EL RESTO DE PORTAFOLIO-->
+	<div id="contenedor2"></div>
+		<section id="contpage">
+
+			<div id="contpageimg">
+				<img src="img/page/1.png">
+			</div>
+
+			<div="contpagetext">
+				En este proyecto se planea crear una comunidad de usuarios en donde se suban libros de programación y desarrollo de forma gratuita, la idea original es motivar a los usuarios para que mas adelante ellos también compartan sus conocimientos, no solo de programación sino de cualquier área, pero claro empezando por programacion y las areas que nosotros conocemos, para no tener que depender solo de las colaboraciones de usuarios.
+			</div>
+
+		</section>
+
+
+
 
 	</div>
 
