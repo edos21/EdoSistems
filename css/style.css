@@ -885,3 +885,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   white-space: pre;
 
 }
+
+.stage{
+
+  width: 800px;
+  margin-left: 180px;
+
+}

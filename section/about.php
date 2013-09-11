@@ -10,7 +10,6 @@
 			</div>
 			<div id="textdere">Nuestro</div>
 			<div id="textizq"><span class="letra">EQUIPO</span></div>
-
 			<div class="wrapper">
 				<ul class="stage clearfix">
 
@@ -18,9 +17,40 @@
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
 							<div class="info">
-								<p>
+						
+ 								<p>
 									<strong>Eduardo Sanchez</strong><br>
 									<strong>Web Developer</strong><br>
+ 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
+ 								</p>
+
+							</div>
+						</div>
+					</li>
+
+					<li class="scene">
+						<div class="worker" onclick="return true">
+							<div class="photo"></div>
+							<div class="info">
+								
+								<p>
+									<strong>Daniela Singer</strong><br>
+									<strong>Redactora y Traductora</strong><br>
+									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
+								</p>
+							</div>
+						</div>
+					</li>
+
+
+					<li class="scene">
+						<div class="worker" onclick="return true">
+							<div class="photo"></div>
+							<div class="info">
+								
+								<p>
+									<strong>Daniela Singer</strong><br>
+									<strong>Redactora y Traductora</strong><br>
 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
@@ -31,19 +61,7 @@
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
 							<div class="info">
-								<p>
-									<strong>Daniela Singer</strong><br>
-									<strong>Redactora y Traductora</strong><br>
-									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
-								</p>
-							</div>
-						</div>
-					</li>
-				
-					<li class="scene">
-						<div class="worker" onclick="return true">
-							<div class="photo"></div>
-							<div class="info">
+								
 								<p>
 									<strong>Daniela Singer</strong><br>
 									<strong>Redactora y Traductora</strong><br>
@@ -56,15 +74,6 @@
 				</ul>
 			</div><!-- /wrapper -->	
 
-<br>
-<br>
-
-			
-
-
-
-				</ul>
-			</div><!-- /wrapper -->	
 
 
 
