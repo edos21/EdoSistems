@@ -10,6 +10,7 @@
 			</div>
 			<div id="textdere">Nuestro</div>
 			<div id="textizq"><span class="letra">EQUIPO</span></div>
+
 			<div class="wrapper">
 				<ul class="stage clearfix">
 
@@ -17,11 +18,9 @@
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
 							<div class="info">
-								<header>
-
-								</header>
 								<p>
-									<strong>Web Designer & Gigolo</strong><br><br>
+									<strong>Eduardo Sanchez</strong><br>
+									<strong>Web Developer</strong><br>
 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
@@ -32,31 +31,23 @@
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
 							<div class="info">
-								<header>
-									<h1>Vengeance Valley</h1>
-									<span class="year">1951</span>
-									<span class="rating">NR</span>
-									<span class="duration">83 minutes</span>
-								</header>
 								<p>
-									A cattle baron takes in an orphaned boy and raises him, causing his own son to resent the boy. As they get older the resentment festers into hatred, and eventually the real son frames his stepbrother for fathering an illegitimate child that is actually his, seeing it as an opportunity to get his half-brother out of the way so he can have his father's empire all to himself.
+									<strong>Daniela Singer</strong><br>
+									<strong>Redactora y Traductora</strong><br>
+									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
 						</div>
 					</li>
-
+				
 					<li class="scene">
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
 							<div class="info">
-								<header>
-									<h1>The Gold Rush</h1>
-									<span class="year">1925</span>
-									<span class="rating">NR</span>
-									<span class="duration">95 minutes</span>
-								</header>
 								<p>
-									The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.
+									<strong>Daniela Singer</strong><br>
+									<strong>Redactora y Traductora</strong><br>
+									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
 						</div>
@@ -65,6 +56,15 @@
 				</ul>
 			</div><!-- /wrapper -->	
 
+<br>
+<br>
+
+			
+
+
+
+				</ul>
+			</div><!-- /wrapper -->	
 
 
 
