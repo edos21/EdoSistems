@@ -49,8 +49,8 @@
 							<div class="info">
 								
 								<p>
-									<strong>Daniela Singer</strong><br>
-									<strong>Redactora y Traductora</strong><br>
+									<strong>David Palacios</strong><br>
+									<strong>Web Developer</strong><br>
 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
@@ -63,8 +63,8 @@
 							<div class="info">
 								
 								<p>
-									<strong>Daniela Singer</strong><br>
-									<strong>Redactora y Traductora</strong><br>
+									<strong>Wilmer Blanco</strong><br>
+									<strong>Web Designer</strong><br>
 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
 								</p>
 							</div>
