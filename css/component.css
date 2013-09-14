@@ -1,4 +1,11 @@
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+
+	 }
 
 
 
@@ -24,6 +31,8 @@ Build the scene and rotate on hover
 	float: left;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
 	perspective: 1000px;
 }
 
@@ -32,18 +41,28 @@ Build the scene and rotate on hover
 	height: 400px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+
 	-webkit-transform: translateZ(-130px);
 	-moz-transform: translateZ(-130px);
+	-o-transform: translateZ(-130px);
+	-ms-transform: translateZ(-130px);
 	transform: translateZ(-130px);
+
 	-webkit-transition: -webkit-transform 350ms;
 	-moz-transition: -moz-transform 350ms;
+	-o-transition: -moz-transform 350ms;
+	-ms-transition: -moz-transform 350ms;
 	transition: transform 350ms;
 }
 
 .worker:hover {
 	-webkit-transform: rotateY(-78deg) translateZ(20px);
 	-moz-transform: rotateY(-78deg) translateZ(20px);
+	-o-transform: rotateY(-78deg) translateZ(20px);
+	-ms-transform: rotateY(-78deg) translateZ(20px);
 	transform: rotateY(-78deg) translateZ(20px);
 }
 
@@ -59,12 +78,16 @@ Transform and style the two planes
 	background-color: #fff;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 .worker .photo  {
 	-webkit-transform: translateZ(130px);
 	-moz-transform: translateZ(130px);
+	-o-transform: translateZ(130px);
+	-ms-transform: translateZ(130px);
 	transform: translateZ(130px);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -73,9 +96,23 @@ Transform and style the two planes
 .worker .info {
 	-webkit-transform: rotateY(90deg) translateZ(130px);
 	-moz-transform: rotateY(90deg) translateZ(130px);
+	-o-transform: rotateY(90deg) translateZ(130px);
+	-ms-transform: rotateY(90deg) translateZ(130px);
 	transform: rotateY(90deg) translateZ(130px);
 	border: 1px solid #B8B5B5;
 	font-size: 0.75em;
+
+			background: rgb(244,244,244); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiNmNGY0ZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3MiUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(244,244,244,1) 33%, rgba(237,237,237,1) 72%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(33%,rgba(244,244,244,1)), color-stop(72%,rgba(237,237,237,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 33%,rgba(237,237,237,1) 72%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(244,244,244,1) 33%,rgba(237,237,237,1) 72%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(244,244,244,1) 33%,rgba(237,237,237,1) 72%,rgba(204,204,204,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(244,244,244,1) 33%,rgba(237,237,237,1) 72%,rgba(204,204,204,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#cccccc',GradientType=0 ); /* IE6-8 */
+
 }
 
 /*************************************
@@ -92,12 +129,20 @@ Shadow beneath the 3D object
 	box-shadow: 0 30px 50px rgba(0,0,0,0.3);
 	-webkit-transform-origin: 100% 100%;
 	-moz-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
 	transform-origin: 100% 100%;
+
 	-webkit-transform: rotateX(90deg) translateY(130px);
 	-moz-transform: rotateX(90deg) translateY(130px);
+	-o-transform: rotateX(90deg) translateY(130px);
+	-ms-transform: rotateX(90deg) translateY(130px);
 	transform: rotateX(90deg) translateY(130px);
+
 	-webkit-transition: box-shadow 300ms;
 	-moz-transition: box-shadow 350ms;
+	-o-transition: box-shadow 350ms;
+	-ms-transition: box-shadow 350ms;
 	transition: box-shadow 350ms;
 }
 
@@ -112,14 +157,14 @@ Movie information
 .info header {
 	color: #FFF;
 	padding: 0px;
-	font-weight: bold;
-	background-size: auto;
-	background-repeat: no-repeat;
+
+
 	text-shadow: 0px 1px 1px rgba(0,0,0,1);
 	margin: 0px;
 	height: 250px;
 	width: 260px;
-	
+
+
 }
 
 .info header h1 {
@@ -130,6 +175,9 @@ Movie information
 .info header .rating {
 	border: 1px solid #FFF;
 	padding: 0px 3px;
+
+
+
 }
 
 .info p {
@@ -139,6 +187,14 @@ Movie information
 	color: #666;
 	line-height: 1.4em;
 	border-top: 10px solid #555;
+
+	font-family: 'robotolight';
+	font-size: 10pt;
+}
+
+.info p strong {
+	font-family: 'robotoregular';
+	font-size: 12pt;
 }
 
 /*************************************
@@ -150,6 +206,8 @@ Generate "lighting" using box shadows
 .worker .info header {
 	-webkit-transition: box-shadow 350ms;
 	-moz-transition: box-shadow 350ms;
+	-o-transition: box-shadow 350ms;
+	-ms-transition: box-shadow 350ms;
 	transition: box-shadow 350ms;
 }
 

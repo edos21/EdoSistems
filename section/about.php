@@ -20,10 +20,22 @@
 							<div class="info">
 						
  								<p>
-									<strong>Eduardo Sanchez</strong><br>
-									<strong>Web Developer</strong><br>
- 									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
- 								</p>
+									<strong>Wilmer Blanco</strong><br>
+									Web Designer<br><br>
+									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+
+									Redes Sociales<br>
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+
+									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+
+									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
+									<br>
+									<br>
+									email: wblanco@e2sistems.com
+								</p>
 
 							</div>
 						</div>
@@ -35,9 +47,21 @@
 							<div class="info">
 								
 								<p>
-									<strong>Daniela Singer</strong><br>
-									<strong>Redactora y Traductora</strong><br>
-									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
+									<strong>Wilmer Blanco</strong><br>
+									Web Designer<br><br>
+									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+
+									Redes Sociales<br>
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+
+									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+
+									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
+									<br>
+									<br>
+									email: wblanco@e2sistems.com
 								</p>
 							</div>
 						</div>
@@ -50,9 +74,21 @@
 							<div class="info">
 								
 								<p>
-									<strong>David Palacios</strong><br>
-									<strong>Web Developer</strong><br>
-									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
+									<strong>Wilmer Blanco</strong><br>
+									Web Designer<br><br>
+									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+
+									Redes Sociales<br>
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+
+									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+
+									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
+									<br>
+									<br>
+									email: wblanco@e2sistems.com
 								</p>
 							</div>
 						</div>
@@ -65,8 +101,20 @@
 								
 								<p>
 									<strong>Wilmer Blanco</strong><br>
-									<strong>Web Designer</strong><br>
-									En su tiempo libre disfruta de caminatas por los cerros de caracas, le gusta el regueton en especial el que dice "tirate un paso".
+									Web Designer<br><br>
+									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+
+									Redes Sociales<br>
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+
+									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+
+									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+
+									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
+									<br>
+									<br>
+									email: wblanco@e2sistems.com
 								</p>
 							</div>
 						</div>
