@@ -3,13 +3,7 @@
 	include 'includes/header.html';
 
 ?> 
-	<br>
-		<div id="textizq">NUESTRO</div>
-		<div id="textdere" style="font-size: 50px;">PORTAFOLIO<span id="textizq">WEB</span></div>
-	<br>
-	<br>
-<br>
-<br>
+<div id="contenedor3dimage">
 	<div id="wrapper">
 		<div>
 			<section id="dg-container" class="dg-container">
@@ -26,8 +20,16 @@
 					<a href="#"><img src="img/slider/10.jpg" alt="image10"><div></div></a>
 					<a href="#"><img src="img/slider/11.jpg" alt="image11"><div></div></a>
 				</div>
+				<br><br><br>
+				<div id="textizq">NUESTRO</div>
+				<div id="textdere" style="font-size: 50px;">PORTAFOLIO<span id="textizq">WEB</span></div>
 			</section>
 		</div>
+
+
+	</div>
+	<img id="sombra" src="img/shadow_1.png"/>
+</div>
 		<br>
 		<br>
 			<div id="textcentral">
@@ -38,7 +40,7 @@
 	<div id="contenedor2"></div>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/1.png">
 			</div>
 			<div id="contpagetext">
@@ -50,31 +52,31 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/2.png">
 			</div>
 			<div id="contpagetext">
 				<h3>Colposalud</h3>
-				Bueno este sistema es mas o menos grande, pero yo solo colabore con el desarrollo del sistema interno y corrección de errores, el diseño no es mio (es horrible o.O) pero el sistema es registro de pacientes y de doctores, se realizaran citas, se enviaran resultados a pacientes, ademas se hacen exámenes colposcopicos (wilmer, deberías hacerte uno, a ver si tienes arena xD) cuenta con un sistema donde segun la imagen que se suba, se mostrara la zona afectada y también se puede crear la historia del paciente, cada paciente por supuesto puede tener varios exámenes, ademas los datos de los pacientes son totalmente confidenciales, por tanto cada doctor tiene acceso a solo sus pacientes y cada paciente tiene acceso a solo sus exámenes.
+				Amplio sistema desarrollado para clientes del área de la salud, con gran organización y variadas e importantes funciones como registro de doctores, registro y creación de historias médicas de pacientes, creación y administración de citas y envío de resultados de exámenes a los respectivos pacientes mediante sólo un clic. También permite visualizar imágenes de exámenes médicos e indica cuál es la zona afectada de acuerdo a éstas. Cabe destacar que al sistema le fue creada la especial función de conservar como confidencial todos los datos de cada paciente, por lo tanto, cada médico tiene acceso único y exclusivo a sus pacientes, mientras que los pacientes sólo tienen acceso a su propia información.
 			</div>
 
 		</section>
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/3.png">
 			</div>
 			<div id="contpagetext">
 				<h3>Admin</h3>
-				Es un sistemita administrativo solo pa mi pues :P donde puedo registrar clientes o cualquier persona para tenerlos como agenda, ademas puedo registrar mis gastos o ingresos, si son de alguna persona ya registrada puedo asociarlos y sino, solo se registra y fin. y me muestra un reporte con mis ganancias, gastos y mi balance segun cualquier rango de fecha que yo necesite :P.... chiquito, sencillo pero efectivo.
+				Sistema de administración eficiente y esencial para toda empresa o negocio, con una agenda para el registro de clientes o personas afines, registro de gastos e ingresos y la función opcional de relacionar estos a alguna persona ya registrada. Además permite la creación y visualización de reportes de gastos e ingresos y de balances con los rangos de fecha de tu preferencia. Básico e ideal para el control y administración de tus finanzas personales, negocio o empresa.
 			</div>
 
 		</section>
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/4.png">
 			</div>
 			<div id="contpagetext">
@@ -86,7 +88,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/5.png">
 			</div>
 			<div id="contpagetext">
@@ -98,7 +100,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/6.png">
 			</div>
 			<div id="contpagetext">
@@ -110,7 +112,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/7.png">
 			</div>
 			<div id="contpagetext">
@@ -122,7 +124,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/8.png">
 			</div>
 			<div id="contpagetext">
@@ -134,7 +136,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/9.png">
 			</div>
 			<div id="contpagetext">
@@ -146,7 +148,7 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/10.png">
 			</div>
 			<div id="contpagetext">
@@ -158,24 +160,25 @@
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/11.png">
 			</div>
 			<div id="contpagetext">
 				<h3>Creatilia - let's go</h3>
-				Bueno esta pagina estuvo online un tiempo, fue la pagina predecesora a Edosistems que es predecesora de e2sistems, es solo la pagina de la empresa, como esta tiene inicio, acerca, contactanos, el equipo, blog, servicios... etc.
+				Diseño web original e idea precursora de nuestro sitio web hoy conocido como e2sistems.com. Posteriormente se tomó la decisión conjunta de cambiar el diseño y nombre de la empresa.
 			</div>
 
 		</section>
 		<br>
 		<section id="contpage">
 
-			<div id="contpageimg">
+			<div class="aumento" id="contpageimg">
 				<img src="img/page/12.png">
 			</div>
 			<div id="contpagetext">
 				<h3>DAEX</h3>
-				Este sistema es para el Ejercito Bolivariano (hombres y mujeres valientes que luchan por el bienestar de la nación, para defender nuestros ideales de democracia y promover el bienestar social) Copy Paste . este sistema es especificamente para el Departamento de Armas y Explosivos, el sistema permite al usuario registrarse, ingresar luego sus datos personales y registrar cada una de sus armas, luego el sistema asignara una cita, la cual enviara por correo, con un archivo PDF adjunto en donde se mostrara el identificador, sus datos y las distintas armas, el mismo debe ser llevado el dia de la cita para realizar el registro de las armas de forma oficial (vamos que como el saime pero en lugar de pasaporte, armas).... el sistema cuenta con una puerta trasera (no creo que sea buena idea decir eso) en esta puerta trasera solo pueden accerder administradores, para registrar a sus "amigos" y adelantarle el tramite  (trampas, siempre trampas, luego dicen que xq esos tramiten se demoran y son tan problematicos, pero en fin como dije al principio, estos valientes defienden nuestros intereses y de nuestra nacion)
+				Nuevamente un sistema desarrollado por E2Sistems para el Ejército Bolivariano de Venezuela. específicamente para el Departamento de Armas y Explosivos, con la finalidad de garantizar y contribuir en la legalidad y rápida operacionalización  de sus actividades. Éste permite al usuario registrarse, ingresar sus datos personales y también los datos de cada una de sus armas. A partir de allí el sistema asigna una cita cuya confirmación es enviada por correo mediante un archivo PDF adjunto, en el mismo se muestra el identificador, sus datos y las distintas armas ya registradas. Dicho documento debe ser llevado el día de la cita para realizar el registro armas de forma oficial y legal. El sistema además posee un acceso especial en caso de que los administradores del mismo requieran hacer modificaciones pertinentes.
+
 			</div>
 
 		</section>
