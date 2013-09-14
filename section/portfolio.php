@@ -25,7 +25,6 @@
 					<a href="#"><img src="img/slider/9.jpg" alt="image09"><div></div></a>
 					<a href="#"><img src="img/slider/10.jpg" alt="image10"><div></div></a>
 					<a href="#"><img src="img/slider/11.jpg" alt="image11"><div></div></a>
-					<a href="#"><img src="img/slider/12.jpg" alt="image12"><div></div></a>
 				</div>
 			</section>
 		</div>
