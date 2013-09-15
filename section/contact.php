@@ -15,15 +15,15 @@
 		<p>¿Tienes alguna duda, comentario o quieres plantearnos tu proyecto? Contactanos por nuestras redes sociales o envianos tu comentario aqui y te responderemos a la brevedad posible</p>
 		<br>
 		<div id="cont3">
-			<form method="post" action="#">
+			<form method="post" action="?send">
 				<label for="nombre">NOMBRE Y APELLIDO:</label>
 				<input type="text" name="nombre" id="nombre"><br>
 				<label for="email">EMAIL:</label>
-				<input type="email" name="email" id="email"><br>
+				<input type="mail" name="email" id="email"><br>
 				<label for="telf">TELÉFONO:</label>
 				<input type="tel" name="telf" id="telf"><br>
 				<label for="mensaje">MENSAJE:</label>
-				<textarea name="texto" id="mensaje"> </textarea>
+				<textarea name="texto" id="mensaje"></textarea>
 				<br>
 				<img id="imgcontacto" src="img/contact.png">
 				<button type="submit"><img src="img/enviar.png"/></button>
