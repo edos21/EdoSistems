@@ -9,11 +9,12 @@
 			<div id="textizq"><span class="letra">EQUIPO</span></div>
 			<br><br>
 			<div id="textcentral"> 
-				Somos una empresa consultora de Software que se caracteriza por dar soluciones rápidas y eficientes basándose en los altos estándares de hoy en día. <br>Trabajamos con empresas, personas y estudiantes ofreciéndoles una variedad de servicios.
+				Somos una empresa consultora de software que se caracteriza por dar respuestas rápidas y eficientes a las necesidades de empresas, personas o estudiantes, siempre basándonos en la tecnología más actual y de mayor excelencia.<br><br>
+				Ofrecemos servicios con tecnologías del lado del frontend (HTML, HAML, Slim, CSS, SASS), programación client-side (JavaScript, jQuery, Ajax), en el Backend o lado del servidor, trabajamos con (PHP, MySQL, Ruby, Sinatra, SQLite). También contamos con servicios de diseño gráfico, transcripciones y traducciones para así ofrecer software a la medida y de excelente calidad según las necesidades del cliente. Además ofrecemos CMS (Content Management System o Sistema de Gestión de Contenido), asesorías y cursos de capacitación.
 			</div>
 			<div class="wrapper">
 				<ul class="stage clearfix">
-
+ 
 					<li class="scene">
 						<div class="worker" onclick="return true">
 							<div class="photo"></div>
@@ -61,7 +62,7 @@
 									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
 									<br>
 									<br>
-									email: wblanco@e2sistems.com
+									mail: wblanco@e2sistems.com
 								</p>
 							</div>
 						</div>
@@ -74,21 +75,19 @@
 							<div class="info">
 								
 								<p>
-									<strong>Wilmer Blanco</strong><br>
-									Web Designer<br><br>
-									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+									<strong>Daniela Singer</strong><br>
+									Redactora/Traductora<br><br>
+									Psicóloga en formación, Traductora y otras decenas de cosas. Seguidora de novelas varias y casi todo lo que implique la palabra escrita.<br><br>
+									"Las palabras son el medio entre lo inexistente y lo real"<br><br>
 
 									Redes Sociales<br>
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+									<a href="https://www.facebook.com/daniela.singer.58" target="_blank"><img src="img/webicon-facebook-m.png"></a>
 
-									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+									<a href="https://twitter.com/Dani_Alessandra" target="_blank"><img src="img/webicon-twitter-m.png"></a>
 
-									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
-
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
 									<br>
 									<br>
-									email: wblanco@e2sistems.com
+									mail: dsinger@e2sistems.com
 								</p>
 							</div>
 						</div>
@@ -100,21 +99,20 @@
 							<div class="info">
 								
 								<p>
-									<strong>Wilmer Blanco</strong><br>
-									Web Designer<br><br>
-									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
+									<strong>David Palacios</strong><br>
+									Web Programmer<br><br>
+									Especialista en Backend y Client-Side Programing, Amante de JavaScript y mas. Otros Gustos: Linux, Aviones<br><br>
 
 									Redes Sociales<br>
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+									<a href="http://www.facebook.com/dialpag" target="_blank"><img src="img/webicon-facebook-m.png"></a>
 
-									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+									<a href="http://www.twitter.com/dialpag" target="_blank"><img src="img/webicon-twitter-m.png"></a>
 
-									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+									<a href="https://plus.google.com/113626721713617778425" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
 
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
 									<br>
 									<br>
-									email: wblanco@e2sistems.com
+									mail: dpalacios@e2sistems.com
 								</p>
 							</div>
 						</div>
@@ -124,7 +122,8 @@
 			</div><!-- /wrapper -->	
 
 
-</div> 
+</div>
+<img id="sombra2" src="img/shadow_1.png"/> 
 <?php
 
 	include 'includes/footer.html';

@@ -33,7 +33,7 @@
 		<br>
 		<br>
 			<div id="textcentral">
-			Por este motivo nuestra empresa provee servicios de consultoría para tí, tu negocio o tu empresa, evaluando tus necesidades para así diseñar sitios web y desarrollar programas especialmente creados para impulsarte y ayudarte a crecer en el mundo de hoy, el mundo de la tecnología.
+			En e2sistems creemos en cada uno de nuestros clientes, promovemos su éxito y valoramos la confianza que depositan en nosotros. Al trabajar, nos enfocamos en escucharte y cooperar en conjunto para ayudar al desarrollo y realce de tus ideas. Estos son algunos ejemplos reales de proyectos eficientes en los cuales nuestros clientes han disfrutado de los servicios de E2Sistems para optimizar su desempeño, incrementar sus beneficios inmediatos y garantizar su futuro.
 			</div><br>
 	<img src="img/separador.png"/>
 
@@ -105,7 +105,7 @@
 			</div>
 			<div id="contpagetext">
 				<h3>Sistema de inspecciones</h3>
-				Este sistema es para el Ejercito Bolivariano (hombres y mujeres valientes que luchan por el bienestar de la nación, para defender nuestros ideales de democracia y promover el bienestar social). en este proyecto se registra el personal militar del ejercito, ademas se registran las empresas, luego se asigna determinado personal a determinada empresa para realizar las inspecciones, ademas se debe imprimir la carta y formulario que se llenara al llegar a dicha empresa, ademas se mostraran los reportes segun fecha, empresa o personal.
+				Un sistema creado para el Ejército Bolivariano de Venezuela el cual registra eficazmente empresas y personal del ejército. El sistema, además de registrar, también asigna empresas al personal, genera cartas y formularios necesarios para las inspecciones y muestra los reportes categorizados por fecha, empresa o personal.
 			</div>
 
 		</section>

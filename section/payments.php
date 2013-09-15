@@ -4,9 +4,10 @@
 
 ?>
 	
-	<div id="wrapper">
+	<div id="contabout">
 		
-		<h1>AQUI PAGOS</h1>
+		<h2>Sección en Desarrollo</h2>
+		<img style="height:200px" src="img/logoblack.png">
 
 	</div>
 

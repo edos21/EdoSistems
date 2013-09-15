@@ -447,9 +447,8 @@ background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 53%, rgba(21
 
 #sombra2{
   overflow: visible;
-  width: 200px;
-  height: 15px;
-  margin-bottom: -20px;
+  width: 1000px;
+  margin-top: -20px;
 }
 
 #logito{
@@ -481,6 +480,12 @@ footer{
   width: 840px;
   margin: 0 auto;
   font-size: 14px;
+
+}
+
+#contabout #textcentral{
+
+  text-align: justify;
 
 }
 
@@ -839,7 +844,7 @@ transform: scale(1.3);
 .stage{
 
   width: 800px;
-  margin-left: 180px;
+  margin-left: 130px;
 
 }
 

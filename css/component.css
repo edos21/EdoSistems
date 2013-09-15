@@ -238,15 +238,15 @@ Posters and still images
 }
 
 .scene:nth-child(2) .photo {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/poster04.jpg);
 }
 
 .scene:nth-child(3) .photo {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/poster02.jpg);
 }
 
 .scene:nth-child(4) .photo {
-  background-image: url(../img/poster04.jpg);
+  background-image: url(../img/poster03.jpg);
 }
 
 
