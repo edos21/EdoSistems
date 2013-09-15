@@ -20,21 +20,21 @@
 							<div class="info">
 						
  								<p>
-									<strong>Wilmer Blanco</strong><br>
-									Web Designer<br><br>
-									Amante de la tecnología en general, dibujante, creativo, en estudío soy TSU en Informática, Diseñador Gráfico (CorelDraw Suite), ¿Música? Rock y Metal, otros gustos: Android, PC, VideoGames.<br><br>
-
+									<strong>Eduardo Sánchez</strong><br>
+									Web Developer<br><br>
+									Desarrollador Web Semi Senior con experiencia en Frontend, Client-side y Backend.<br><br>
+									Me encanta la tecnologia, la programación, los videojuegos, los libros y viajar, escribir en mi blog o leer otros.<br><br>
 									Redes Sociales<br>
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-facebook-m.png"></a>
+									<a href="https://www.facebook.com/Eduardo.Nanotech" target="_blank"><img src="img/webicon-facebook-m.png"></a>
 
-									<a href="http://www.twitter.com/wilmer2000" target="_blank"><img src="img/webicon-twitter-m.png"></a>
+									<a href="http://www.twitter.com/edos21" target="_blank"><img src="img/webicon-twitter-m.png"></a>
 
-									<a href="https://plus.google.com/114646406321210904884" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
+									<a href="https://plus.google.com/117423623274281727916" target="_blank"><img src="img/webicon-googleplus-m.png"></a>
 
-									<a href="http://www.facebook.com/wilmer2000" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
+									<a href="http://ve.linkedin.com/in/eduardosanchezsuarez/" target="_blank"><img src="img/webicon-linkedin-m.png"></a>
 									<br>
 									<br>
-									email: wblanco@e2sistems.com
+									mail: esanchez@e2sistems.com
 								</p>
 
 							</div>
