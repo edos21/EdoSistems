@@ -2,7 +2,7 @@
 	
 	$thisPage="home";
 
-// -------------- PAGINA ACERCA -----------------------
+// -------------- PAGINA ACERCA ------------------------
 
 	if (isset($_GET['about'])){
 
@@ -12,7 +12,7 @@
 
 	}
 
-// -------------- PAGINA SERVICIOS -----------------------
+// -------------- PAGINA SERVICIOS ----------------------
 
 	if (isset($_GET['services'])){
 
@@ -22,7 +22,7 @@
 
 	}
 
-// -------------- PAGINA PORTAFOLIO -----------------------
+// -------------- PAGINA PORTAFOLIO ---------------------
 
 	if (isset($_GET['portfolio'])){
 
@@ -32,7 +32,7 @@
 
 	}
 
-// -------------- PAGINA CONTACTO -----------------------
+// -------------- PAGINA CONTACTO ----------------------
 
 	if (isset($_GET['contact'])){
 
@@ -42,7 +42,16 @@
 
 	}
 
-// -------------- PAGINA PAGOS -----------------------
+// -------------- ENVIO DE CORREO ----------------------
+
+	if (isset($_GET['send'])){
+
+		include 'includes/mail.php';
+		exit();
+
+	}
+
+// -------------- PAGINA PAGOS -------------------------
 
 	if (isset($_GET['payments'])){
 
